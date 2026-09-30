@@ -302,15 +302,6 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .eco .i-sun { opacity: 0; transform: rotate(-90deg) scale(.4); }
 [data-theme="dark"] .eco .i-moon { opacity: 0; transform: rotate(90deg) scale(.4); }
 [data-theme="dark"] .eco .i-sun { opacity: 1; transform: none; }
-.eco__tip {
-  position: absolute; top: calc(100% + 12px); right: -8px; width: 230px;
-  padding: .7rem .85rem; border-radius: 14px; text-align: left;
-  background: var(--ink); color: var(--bg); font-size: .78rem; line-height: 1.45; font-weight: 500;
-  box-shadow: var(--shadow-md); opacity: 0; transform: translateY(-6px); pointer-events: none;
-  transition: opacity .25s, transform .35s var(--ease);
-}
-.eco__tip b { display: block; font-size: .82rem; margin-bottom: .15rem; }
-.eco:hover .eco__tip, .eco:focus-visible .eco__tip { opacity: 1; transform: none; }
 
 .burger {
   display: none; position: relative; width: 44px; height: 44px; border-radius: 50%;
